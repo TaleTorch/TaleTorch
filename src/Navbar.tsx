@@ -1,4 +1,4 @@
-import hamburgerMenuBar from './../public/img/navbar/hamburger-menu-bar-icon.png'
+import hamburgerMenuBar from '../public/img/navbar/hamburger-menu-bar-icon.png'
 
 function Navbar() {
     return (
