@@ -1,5 +1,5 @@
-import '../public/stylesheets/App.css'
-import Navbar from './Navbar.tsx'
+import './App.css'
+import Navbar from './components/Navbar/Navbar.tsx';
 
 function App() {
   return (
