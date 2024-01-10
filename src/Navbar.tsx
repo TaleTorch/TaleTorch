@@ -7,6 +7,9 @@ function Navbar() {
                 <div className="basis-1/12">
                     <img src={hamburgerMenuBar} alt="hamburger-menu-bar" />
                 </div>
+                <div className="basis-1/12">
+                    <img src={hamburgerMenuBar} alt="hamburger-menu-bar" />
+                </div>
             </nav>
         </>
     )
