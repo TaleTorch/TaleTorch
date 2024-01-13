@@ -1,9 +1,13 @@
 import "./Sidebar.css"
 
-function SidebarItem(title: string) {
+interface SidebarItemProps{
+    title: string
+}
+
+function SidebarItem(props: SidebarItemProps) {
     return (
         <>
-            <li>{title}</li>
+            <li>{props.title}</li>
         </>
     )
 }
