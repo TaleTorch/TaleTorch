@@ -1,29 +1,33 @@
 import './Sidebar.css'
+import SidebarItem from './SidebarItem'
 
 function Sidebar() {
     return (
         <>
             <nav className='z-20 fixed flex flex-col items-center w-1/6 min-w-56 h-full bg-oxford-blue border-r border-claret pt-16'>
-                <div className='h-fit w-full pt-8 text-center'>
-                    <div className='mb-2 text-gray-1 uppercase'>Dashboard</div>
+                <div className='h-fit w-full my-2 text-white block mx-4 py-4 pl-10 rounded text-xl duration-200 hover:pl-10 hover:bg-gray-900'>Home</div>
+                <div className='h-fit w-full'>
+                    <div className='mb-2 text-gray-1 pl-8 uppercase'>Dashboard</div>
                     <ul className='text-white'>
-                        <li className='block mx-4 py-1 border border-oxford-blue rounded text-xl hover:border hover:border-dark-orange'>My Stories</li>
+                        <li className='dashboard-item block mx-4 py-1 pl-8 rounded text-xl transition-all duration-250 hover:pl-10'>My Stories</li>
+                        <li className='dashboard-item block mx-4 py-1 pl-8 rounded text-xl transition-all duration-250 hover:pl-10'>New Story</li>
+                        <li className='dashboard-item block mx-4 py-1 pl-8 rounded text-xl transition-all duration-250 hover:pl-10'>Settings</li>
                     </ul>
                 </div>
-                <div className='w-full px-12 py-12'>
-                    <div className='text-gray-1 uppercase'>Title</div>
-                    <ul className='pl-4 text-white'>
-                        <li className='block'></li>
+                <div className='h-fit w-full my-6'>
+                    <div className='mb-2 text-gray-1 pl-8 uppercase'>top stories</div>
+                    <ul className='text-white'>
+                        <SidebarItem title='Story 1'/>
+                        <SidebarItem title='Story 2'/>
+                        <SidebarItem title='Story 3'/>
                     </ul>
                 </div>
-                <div>
-                    <div></div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                <div className='h-fit w-full'>
+                    <div className='mb-2 text-gray-1 pl-8 uppercase'>fresh stories</div>
+                    <ul className='text-white'>
+                        <SidebarItem title='Story 1'/>
+                        <SidebarItem title='Story 2'/>
+                        <SidebarItem title='Story 3'/>
                     </ul>
                 </div>
             </nav>

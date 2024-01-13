@@ -7,7 +7,7 @@ interface SidebarItemProps{
 function SidebarItem(props: SidebarItemProps) {
     return (
         <>
-            <li>{props.title}</li>
+            <li className='block mx-4 py-1 pl-8 rounded text-xl transition-all duration-250 hover:pl-10 hover:bg-slate-800'>{props.title}</li>
         </>
     )
 }
