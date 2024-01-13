@@ -6,7 +6,7 @@ function Navbar() {
         <>
             <nav className="fixed block w-full bg-oxford-blue px-5 py-2">
                 <div className="flex justify-items-center items-center">
-                    <div className="flex-grow-0">
+                    <div className="flex-grow-0 md:hidden">
                         <button className="hamburger" type="button">
                             <span className="hamburger-box">
                                 <span className="hamburger-inner"></span>
