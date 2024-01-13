@@ -17,17 +17,17 @@ function Sidebar() {
                 <div className='h-fit w-full my-6'>
                     <div className='mb-2 text-gray-1 pl-8 uppercase'>top stories</div>
                     <ul className='text-white'>
-                        <SidebarItem title='Story 1'/>
-                        <SidebarItem title='Story 2'/>
-                        <SidebarItem title='Story 3'/>
+                        <SidebarItem title='Story 1' />
+                        <SidebarItem title='Story 2' />
+                        <SidebarItem title='Story 3' />
                     </ul>
                 </div>
                 <div className='h-fit w-full'>
                     <div className='mb-2 text-gray-1 pl-8 uppercase'>fresh stories</div>
                     <ul className='text-white'>
-                        <SidebarItem title='Story 1'/>
-                        <SidebarItem title='Story 2'/>
-                        <SidebarItem title='Story 3'/>
+                        <SidebarItem title='Story 1' />
+                        <SidebarItem title='Story 2' />
+                        <SidebarItem title='Story 3' />
                     </ul>
                 </div>
             </nav>
