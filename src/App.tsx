@@ -14,7 +14,7 @@ function App() {
             <Sidebar />
           </section>
           <section className='col-span-5'>
-            <div className='flex flex-col mt-20'>
+            <div className='flex flex-col flex-wrap mt-20'>
               <Card />
               <Card />
             </div>
