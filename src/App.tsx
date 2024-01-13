@@ -7,7 +7,7 @@ function App() {
         <header>
           <Navbar />
         </header>
-        <main>
+        <main className='w-full fixed block h-full bg-rich-black'>
           <Sidebar />
         </main>
       </>
