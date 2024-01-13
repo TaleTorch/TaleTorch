@@ -12,6 +12,7 @@ export default {
         'claret': '#710024',
         'tomato': '#FA6244',
         'dark-orange': '#FF8A0E',
+        'gray-1': '#9ca3af'
       },
     },
   },
