@@ -1,0 +1,34 @@
+:root {
+    --b1: #0D1117;
+    --b2: #0F1527;
+    --r1: #710024;
+    --o1: #FA6244;
+    --o2: #FF8A0E;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--b1);
+    color: lightcyan;
+}
+
+nav {
+    height: 100vh;
+    width: 300px;
+    background-color: var(--b2);
+    border-right: solid 1px #FA6244;
+    padding: 70px 40px;
+}
+
+nav {}
+
+nav .title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    
+}
