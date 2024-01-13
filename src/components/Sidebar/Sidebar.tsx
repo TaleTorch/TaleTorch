@@ -18,7 +18,7 @@ function Sidebar() {
                 </div>
                 <div className='h-fit w-full my-6'>
                     <div className='mb-2 text-gray-1 pl-8 uppercase select-none'>top stories</div>
-                    <ul className='text-white select-none'>
+                    <ul className='text-white'>
                         <SidebarItem title='Story 1' />
                         <SidebarItem title='Story 2' />
                         <SidebarItem title='Story 3' />
@@ -26,7 +26,7 @@ function Sidebar() {
                 </div>
                 <div className='h-fit w-full'>
                     <div className='mb-2 text-gray-1 pl-8 uppercase select-none'>fresh stories</div>
-                    <ul className='text-white select-none'>
+                    <ul className='text-white'>
                         <SidebarItem title='Story 1' />
                         <SidebarItem title='Story 2' />
                         <SidebarItem title='Story 3' />
