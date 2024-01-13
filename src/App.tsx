@@ -8,11 +8,18 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main className='w-full fixed block h-full bg-rich-black'>
-        <Sidebar />
-        <section className='flex justify-center mt-20'>
-          <Card />
-        </section>
+      <main>
+        <div className='grid grid-cols-6 gap-20 h-screen'>
+          <section>
+            <Sidebar />
+          </section>
+          <section className='col-span-5'>
+            <div className='flex flex-col mt-20'>
+              <Card />
+              <Card />
+            </div>
+          </section>
+        </div>
       </main>
     </>
   )
