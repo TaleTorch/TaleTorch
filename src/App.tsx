@@ -9,11 +9,11 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <div className='grid grid-cols-6 gap-20 h-screen'>
-          <section>
+        <div className='grid grid-cols-8'>
+          <section className='col-start-1 col-end-3'>
             <Sidebar />
           </section>
-          <section className='col-span-5'>
+          <section className='col-start-3 col-end-7'>
             <div className='flex flex-col flex-wrap mt-20'>
               <Card />
               <Card />
