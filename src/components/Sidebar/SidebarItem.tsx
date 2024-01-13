@@ -1,6 +1,6 @@
 import "./Sidebar.css"
 
-interface SidebarItemProps{
+interface SidebarItemProps {
     title: string
 }
 
