@@ -10,7 +10,7 @@ function App() {
       </header>
       <main className='w-full fixed block h-full bg-rich-black'>
         <Sidebar />
-        <section className='flex justify-center mt-96'>
+        <section className='flex justify-center mt-20'>
           <Card />
         </section>
       </main>

@@ -6,7 +6,7 @@ import { faHouse, faBook, faPencil, faGear } from '@fortawesome/free-solid-svg-i
 function Sidebar() {
     return (
         <>
-            <nav className='z-20 fixed flex flex-col items-center w-1/6 min-w-56 h-full bg-oxford-blue border-r border-claret pt-16'>
+            <nav className='z-20 fixed flex flex-col items-center w-1/6 min-w-56 h-full bg-oxford-blue border-r border-dark-orange pt-16'>
                 <div className='h-fit w-full my-2 text-white block mx-4 py-4 pl-10 rounded text-xl duration-200 hover:pl-10 hover:bg-gray-900'><FontAwesomeIcon icon={faHouse} />  Home</div>
                 <div className='h-fit w-full'>
                     <div className='mb-2 text-gray-1 pl-8 uppercase'>Dashboard</div>
