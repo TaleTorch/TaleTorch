@@ -1,5 +1,7 @@
 import './Navbar.css'
 import '../../hamburgers/_base.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
     return (
@@ -32,7 +34,7 @@ function Navbar() {
                         </form>
                     </div>
                     <div className="flex-grow-0 mr-3.5">
-                        <button type="button" className="text-white new-story-bg focus:ring-2 focus:ring-dark-orange font-medium rounded-lg text-sm px-5 py-2.5 my-auto">New +</button>
+                        <button type="button" className="text-white new-story-bg focus:ring-2 focus:ring-dark-orange font-medium rounded-lg text-sm px-5 py-2.5 my-auto">New <FontAwesomeIcon icon={faPlus} /></button>
                     </div>
                     <div className="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
                     <div className="flex-grow-0 mx-3.5">
