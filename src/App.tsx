@@ -1,9 +1,15 @@
 import Navbar from './components/Navbar/Navbar.tsx';
+import Sidebar from './components/Sidebar/Sidebar.tsx';
 
 function App() {
   return (
       <>
-        <Navbar />
+        <header>
+          <Navbar />
+        </header>
+        <main>
+          <Sidebar />
+        </main>
       </>
   )
 }
