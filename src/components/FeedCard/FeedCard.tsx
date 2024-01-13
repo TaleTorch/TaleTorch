@@ -3,7 +3,7 @@ import './FeedCard.css'
 function FeedCard() {
     return (
         <>
-            <div className="flex flex-col my-2 items-center rounded-xl shadow md:flex-row md:max-w-xl bg-oxford-blue border border-dark-orange">
+            <div className="flex flex-col items-center my-6 rounded-xl shadow md:flex-row md:max-w-xl bg-oxford-blue border border-dark-orange">
                 <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/sample-story.jpg" alt="story's img" />
                 <div className="flex flex-col justify-between p-4 leading-normal">
                     <h5 className="mb-2 text-2xl font-bold tracking-tighttext-white text-white"><a href="">The Story of a broken man</a></h5>
